@@ -27,7 +27,6 @@ library
   exposed-modules:
       Display
       GameOfLife
-      Games
       Options
       Parser
       Types
