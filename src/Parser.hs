@@ -11,8 +11,6 @@ import Text.Megaparsec.Char.Lexer (decimal, signed)
 
 type Parser = Parsec Void Text
 
-type Position = (Int, Int)
-
 parseLife :: Parser [Location]
 parseLife = header *> many position
 
